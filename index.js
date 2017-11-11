@@ -23,5 +23,6 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-  return drivers.slice().shift(name)
+  newArr = [name, ...drivers]
+  return newArr
 }
