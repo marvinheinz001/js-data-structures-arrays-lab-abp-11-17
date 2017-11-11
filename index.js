@@ -23,7 +23,8 @@ function appendDriver(name){
 }
 
 funciton prependDriver(name){
-  prependDrivers = [name, ...drivers]
+  prependDrivers = drivers 
+  prependDriers.unshift(name)
   return prependDrivers
 
 }
